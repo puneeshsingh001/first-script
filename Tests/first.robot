@@ -18,7 +18,7 @@ ${WEBADDRESS}=  https://www.amazon.ca
 *** Test Cases ***
 
 User must sign in to check out demo
-    first.Search For Product
+    first.Search For ProdBuct
 #User must sign in to check out
  #   first.Search For Product
  #   first.Add Item To Cart

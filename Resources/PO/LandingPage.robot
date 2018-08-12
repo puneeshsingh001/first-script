@@ -13,8 +13,9 @@ Library  Dialogs
 Load
     #[Arguments]  ${URL}  ${BROWSER}
     #OPEN BROWSER  $[URL}  ${BROWSER}
-    ${New_Browser} =  get selection from user  Select browser name  Chrome  Internet Explorer
-    set global variable  ${BROWSER}  ${New_Browser}
+    #${New_Browser} =  get selection from user  Select browser name  Chrome  Internet Explorer
+    #set global variable  ${BROWSER}  ${New_Browser}
+    #open browser    ${WEBADDRESS}  ${BROWSER}
     open browser    ${WEBADDRESS}  ${BROWSER}
     #open browser  ${URL}  ${BROWSER}
     #log ${START_URL}
